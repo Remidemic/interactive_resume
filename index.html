@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>my interactive resume </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="grade">
+            <img id="theImageA" src="https://image.shutterstock.com/image-vector/plus-school-grade-illustration-on-260nw-1955885422.jpg" alt="">
+            <img id="theImageB" src="https://image.shutterstock.com/image-vector/vector-b-red-grade-mark-260nw-1479133349.jpg" alt="">
+            <img id="theImageExtraCred" src="https://image.shutterstock.com/image-vector/extra-credit-grunge-rubber-stamp-260nw-607238432.jpg" alt="">
+            <img id="theheadshot" src="https://media-exp1.licdn.com/dms/image/C4E03AQGd4ubrJcfP_w/profile-displayphoto-shrink_800_800/0/1571324374257?e=1666828800&v=beta&t=zag34ClEFVCZXRwItYitgUGl2bw7Fe2DF8XprGgYX0k" alt="">
+            <img id="priorgif" src="https://thumbs.dreamstime.com/b/vector-artistic-drawing-illustration-old-closed-history-book-pen-ink-119233665.jpg" alt="">
+
+        </div>
+
+        <div></div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Jeremy Guzman</button>
+            <div class="dropdown-content">
+                <h3><a href="https://www.linkedin.com/in/jeremyguzman/" target="_blank">Linkedin</a>
+                </h3>
+                <h3><a href="mailto:Jeremy.r.guzman@gmail.com" target="_blank">E-Mail</a>
+                </h3>
+                <h3><a href="https://linktr.ee/PlantApartments/" target="_blank">PlantApartments</a>
+                </h3>
+                <h3><a href="https://github.com/Remidemic?tab=repositories" target="_blank">Github</a>
+                </h3>
+            </div>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">(how) Can i help you?</button>
+            <div class="dropdown-content">
+                <h3 onclick="populateAWorkToScreen()" id="showImageA">A+ WORK</h3>
+                <h3 onclick="populateBWorkToScreen()" id="showImageB">B WORK</h3>
+                <h3 onclick="populateEXTRACREDIT()" id="showImageExtraCred">EXTRA CREDIT</h3>
+                <h3 onclick="populateTextToScreenABOUT()" id="showheadshot"> A little bit about me</h3>
+                <h3 onclick="workhistory()" id="showgif"> Some prior work experience</h3>
+            </div>
+        </div>
+        <div></div>
+    </div>
+
+
+    <div class="screen"></div>
+
+
+    <div class="underline "></div>
+    <div class="contactInfo ">
+    </div>
+
+    <script src="app.js "></script>
+</body>
+
+</html>
