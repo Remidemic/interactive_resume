@@ -5,6 +5,7 @@ body {
     background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/notebook-paper-background-design-template-c114c2ed2104bd8b815cf7fbb2f34f44_screen.jpg?ts=1636989881);
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: url(https://images.fineartamerica.com/images-medium-large-5/pencil-with-computer-cursor-point-ikon-images.jpg), auto;
 }
 
 .nav {
@@ -188,7 +189,4 @@ h3:hover {
     /* width: 45%; */
     height: 50%;
     margin: 8%;
-    z-index: ;
 }
-
-.learnMore {}

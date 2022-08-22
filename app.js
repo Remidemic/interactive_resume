@@ -5,7 +5,7 @@ const populateAWorkToScreen = () => {
 
     let gradeA = document.querySelector(".screen");
     let text =
-        "Remy is a customer-centric solutions provider with proven success in numerous industry verticles including event sales, business loans, B2B solutions and realestate. risk management is a strength that has worked in his favor "
+        "Remy is a customer-centric solutions provider with proven success in numerous industry verticles including event sales, business loans, B2B solutions and realestate. Risk management is a strength that has worked in his favor through several endeavors"
     gradeA.innerHTML = text;
 };
 
@@ -56,5 +56,6 @@ const workhistory = () => {
 }
 
 const revealTV = () => {
-    document.getElementsByClassName("tvBox").style.visibility = "visible";
+    document.querySelector('.tvBox').style.visibility = 'visible';
+
 }
