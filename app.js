@@ -54,3 +54,7 @@ const workhistory = () => {
         "2019 - present : self employed - small business owner \n \r 2016 - 2019: \t small business loan sales "
     workhistory.innerHTML = text;
 }
+
+const revealTV = () => {
+    document.getElementsByClassName("tvBox").style.visibility = "visible";
+}
